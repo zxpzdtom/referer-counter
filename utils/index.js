@@ -19,7 +19,7 @@ export function generateSvg(text) {
 
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${rectMargin * text.length}px" height="30px" version="1.1">
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         ${rectAndText}
       </g>
     </svg>
